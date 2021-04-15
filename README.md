@@ -10,7 +10,7 @@ pongono il dataset qualsiasi tipo di punteggiatura e le cifre.
 l'utilizzo delle espressioni regolari (RE) gli URL. Sempre attraverso le
 RE, sono state estese le abbreviazioni - sia quelle tipiche dello slang
 inglese e sia quelle inerenti alle parole "tossiche" - come per esempio
-I'll -> I will. In seguito, è stata rimossa la lista delle 179 SW in inglese
+***I'll>>>I will.*** In seguito, è stata rimossa la lista delle 179 SW in inglese
 offerta da nltk. Il testo viene portato in lower case. Tutte le modifiche
 si aggiungono a quelle del punto 1.
 3. Lemmatizzazione: al punto 2, viene aggiunta la lemmatizzazione, un
