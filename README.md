@@ -14,8 +14,7 @@ I'll -> I will. In seguito, è stata rimossa la lista delle 179 SW in inglese
 offerta da nltk. Il testo viene portato in lower case. Tutte le modifiche
 si aggiungono a quelle del punto 1.
 3. Lemmatizzazione: al punto 2, viene aggiunta la lemmatizzazione, un
-processo grazie al quale i token vengono ricondotti alla propria radice
-- ovvero alla forma che si trova all'interno del dizionario. Inizialmente,
+processo grazie al quale i token vengono ricondotti alla propria radice - ovvero alla forma che si trova all'interno del dizionario. Inizialmente,
 dopo aver tokenizzato il testo, viene applicato il treebank POS tagging
 attraverso la libreria nltk. Successivamente, i tag risultanti vengono
 trasformati nei corrispondenti WordNet tag, necessari a rendere più
@@ -23,6 +22,7 @@ accurato il lemmatizzatore di WordNet utilizzato.
 4. Stemming: al testo tokenizzato viene applicato il Lancaster Stemmer.
 Lo stemming elimina gli affissi (sia suffissi che prefissi) dai token analizzati. 
 Tutte le modifiche vengono aggiunte a quelle del punto 2.
+
 Ciò che attrae maggiormente l'attenzione è la diminuizione
 del valore dell'AUC man mano si aggiungono livelli di preprocessing successivi al primo e al secondo. Nonostante in letteratura si legga dei vantaggi
 che lemmatizzazione e stemming comportano a livello di accuratezza in un
