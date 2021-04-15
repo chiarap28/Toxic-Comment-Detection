@@ -46,11 +46,11 @@ target due classi: positività e negatività dei commenti.
 
 cartella **data**: inserire qui il dataset https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
 
-cartella **glove.twitter.27B**: inserire qui il file di word embedding ***GloVe
+cartella **glove.twitter.27B**: inserire qui il file di word embedding ***GloVe***
 
-cartella **dataft**: inserire qui il file di word embedding ***FastText
+cartella **dataft**: inserire qui il file di word embedding ***FastText***
 
-cartella **data_it***: inserire qui il dataset ***SENTIPOLC16 di Evalita
+cartella **data_it***: inserire qui il dataset ***SENTIPOLC16 di Evalita***
 
 cartella **model_**: contiene i migliori modelli per il dataset in inglese (.h5)
 
